@@ -28,4 +28,7 @@ public class Solution {
 		        
 		return result ;
 		    }
+	 int h;
+	 int m;
+	 String result = timeInWords(h, m);
 }
