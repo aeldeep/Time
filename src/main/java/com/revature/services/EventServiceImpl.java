@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.revature.daos.EventsDao;
+import com.revature.dto.EventSolution;
 import com.revature.models.Events;
 
 
@@ -36,5 +37,6 @@ public Events getById(int id) {
 	// TODO Auto-generated method stub
 	return ed.getOne(id);
 }
+
 
 }
